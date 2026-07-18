@@ -56,7 +56,7 @@ article {
     padding: 8px;
 }
 
-article {
+.hero article {
     position: absolute;
     bottom: -10px;
     width: 80%;
