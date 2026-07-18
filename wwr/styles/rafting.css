@@ -62,7 +62,7 @@ article {
     width: 80%;
     text-align: center;
     background-color: var(--accent1-color);
-    color: #f4a261;
+    color: var(--secondary-color);
     opacity: 0.8;
 
 }
