@@ -86,3 +86,8 @@ article {
     width: 100%;
     height: auto;
 }
+
+footer {
+    float: left;
+    width: 128px;
+}
