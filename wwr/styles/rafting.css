@@ -14,13 +14,45 @@
 }
 
 header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
 }
 
-body {
-    font-family: var(--body-font);
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+#logo {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
     color: var(--accent1-color);
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    /*border: solid;*/
+}
+
+.navigation a:hover {
+    color: var(--secondary-color)
 }
 
 header,
@@ -73,6 +105,34 @@ article {
 
 }
 
+.history_title {
+    text-align: center;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+}
+
+.history img {
+    width: 200px;
+    height: auto;
+}
+
+.adventure_title {
+    text-align: center;
+}
+
+.adventure_images img {
+    width: 128px;
+    height: auto;
+}
+
+.adventure_images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -90,4 +150,9 @@ article {
 footer img {
     float: left;
     width: 128px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
 }
