@@ -30,7 +30,7 @@ header {
 
 #logo {
     font-size: 2rem;
-    font-family: Acme, Arial, sans-serif;
+    font-family: var(--body-font);
 }
 
 .navigation {
@@ -153,6 +153,7 @@ footer img {
 }
 
 .footer {
+    color: var(--accent2-color);
     display: flex;
     justify-content: flex-end;
 }
