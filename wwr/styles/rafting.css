@@ -80,6 +80,35 @@ h1 {
 
 }
 
+.company-name {
+    position: relative;
+    background-color: transparent;
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.contact-info {
+    position: relative;
+    background-color: transparent;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.form-map {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 80px;
+}
+
+.map iframe {
+    width: 400px;
+    height: 300px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
 nav,
 p,
 section,
@@ -131,6 +160,17 @@ article {
 .adventure_images {
     display: flex;
     justify-content: space-evenly;
+}
+
+.employee_images img {
+    width: 275px;
+    height: auto;
+}
+
+.employee_images {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
 }
 
 .socialmedia a {
