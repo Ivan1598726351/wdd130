@@ -162,6 +162,16 @@ article {
     justify-content: space-evenly;
 }
 
+.main-page_images img {
+    width: 250px;
+    height: auto;
+}
+
+.main-page_images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .employee_images img {
     width: 275px;
     height: auto;
